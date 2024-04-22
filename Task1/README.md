@@ -16,3 +16,5 @@ Un usuario puede tomar prestados uno o varios libros, lo que representa una rela
 Cada préstamo está asociado a un libro específico, lo que representa una relación entre "Préstamo" y "Libro".
 Identifica las claves primarias y foráneas necesarias en las entidades relacionadas.
 
+## Resolución task:
+https://drive.google.com/file/d/1blHw-44w8vkurhzH1TMwm32cYwZR1Q-I/view?usp=sharing
