@@ -55,3 +55,6 @@ muestra los libros escritos por un autor específico y publicados después de ci
 12) Mostrar los títulos de los libros y el número de palabras en cada título, ordenados de forma descendente por el número de palabras 
 13) Calcular la diferencia de años entre el año de publicación del libro más reciente y el año de publicación del libro más antiguo
 
+Preview Modelo Relacional :
+
+![name-of-you-image](https://github.com/matifrank/MH_bootcamp_Team4/blob/main/Task2/DB_biblioteca_modelo.png)
