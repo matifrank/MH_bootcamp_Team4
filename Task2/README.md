@@ -7,7 +7,10 @@ Task 2do Dia
 Imagina que estás trabajando en una biblioteca y te han asignado la tarea de administrar una base de datos de libros. 
 Debes crear una tabla para almacenar información sobre los libros, agregar algunos registros, realizar consultas para recuperar datos y eliminar registros según ciertos criterios.
 
- 
+Preview Modelo Relacional creado :
+
+![name-of-you-image](https://github.com/matifrank/MH_bootcamp_Team4/blob/main/Task2/DB_biblioteca_modelo.png)
+
 ## Instrucciones del ejercicio:
 
 Paso 1: Creación de la tabla
@@ -54,4 +57,5 @@ muestra los libros escritos por un autor específico y publicados después de ci
 11) Encontrar el autor con el título del libro más largo 
 12) Mostrar los títulos de los libros y el número de palabras en cada título, ordenados de forma descendente por el número de palabras 
 13) Calcular la diferencia de años entre el año de publicación del libro más reciente y el año de publicación del libro más antiguo
+
 
