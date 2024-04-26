@@ -9,7 +9,6 @@ This repository serves as a central hub for our bootcamp group.
 
 ## Participants
 
-- [Daniel Delgado] 
 - [Nicolas Lebus] 
 - [Matias Rodriguez Frank] 
 
