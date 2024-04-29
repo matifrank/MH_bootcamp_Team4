@@ -1,0 +1,36 @@
+#  **Práctica - Consultas en Mongodb**  #
+
+# Consulta 1: 
+{ "borough": "Manhattan", "grades.score": { $gte: 10 } }
+# Consulta 2: 
+{ "grades.grade": "B" }
+#Consulta 3: 
+{ "cuisine": "Irish" }
+ 
+# 1. Buscar restaurantes que hayan obtenido una calificación "A"
+{"grades.grade": "A" }
+
+# 2. Buscar restaurantes en Brooklyn con una puntuación de grade superior a 10
+{"borough": "Brooklyn", "grades.score": { $gte: 10 } }
+
+# 3. Encontrar restaurantes en Manhattan que sirvan comida irlandesa y tengan una calificación "A"
+{"borough": "Manhattan", "cuisine": "Irish", "grades.grade": "A" }
+
+# 4. Encontrar restaurantes en Queens que sirvan comida kosher y hayan obtenido una calificación "A" o "B" después de una fecha específica
+{"borough": "Queens",
+  "cuisine": "Jewish/Kosher",
+  "grades.grade": { $in: ["A", "B"]},
+  "grades.date": { $gte: ISODate("2014-12-01")}}
+
+# 5. Buscar restaurantes con una puntuación de grade promedio mayor a 8
+{$expr: {
+    $gt: [{ $avg: "$grades.score" }, 8 ]
+  }
+ }
+
+# 6. Encontrar restaurantes en Brooklyn que sirvan hamburguesas y tengan una calificación "A" en la última evaluación
+{"borough": "Manhattan", "cuisine": "Hamburgers", "grades.grade": "A"}
+
+# Sort
+{"grades.grade": -1 }
+
